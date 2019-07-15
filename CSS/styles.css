@@ -1,0 +1,139 @@
+html{
+    background-image:url("https://assets.teenvogue.com/photos/5c2d245e2cb18d49291db855/16:9/w_1280%2Cc_limit/lede%252520(1).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  ul{
+    float:right;
+    list-style-type:none;
+    margin-top:0;
+    
+  }
+  ul li{
+    display:inline-block;
+  }
+  ul li a{
+    padding:4px 6px;
+    overflow:hidden;
+    text-align:center;
+    text-decoration:none;
+    font-family:"roboto", sans serif;
+    border:1px solid transparent;
+    color:Black;
+    transition:0.6s ease;
+  }
+  ul li a:hover{
+    background-color:black;
+    color:white;
+  }
+  ul li.active a{
+    background-color:black;
+    color:white;
+  }
+  .logo img{
+    margin-left: 10px;
+    float:left;
+    width:150px;
+    height:auto;
+  }
+  #logo1{
+    display: flex;
+    width:120px;
+    height:auto;
+    justify-content: flex-end;
+  }
+  #logo2{
+   margin-left: 10px;
+    float:left;
+    width:150px;
+    height:auto; 
+  }
+  #logo3{
+   margin-left: 10px;
+    float:left;
+    width:150px;
+    height:auto; 
+  }
+  
+  .main{
+    max-width:1200px;
+    margin:auto;
+  }
+  .title{
+    position:absolute;
+    left:20%;
+    right:80%;
+  }
+  .title h2{
+    color:Black;
+    font-size:70px;
+  }
+  
+  .services , .about us{
+    background-image:linear-gradient(black);
+    Margin-bottom:6px;
+    font-weight:600;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    Padding-top:50%;
+    padding-bottom:50%;
+    color:black;
+  }
+  #Services h1{
+    text-align:center;
+    color:black;
+    padding-bottom:10px;
+  }
+  #services h1::after
+  {
+    content:'';
+    background:black;
+    display:block;
+    height:3px;
+    width:90px;
+    margin:2px auto 2px;
+  }
+  .about us{
+    display:block;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .container1{
+    display: flex;
+    flex-direction: column;
+  }
+  .container2{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .fa{
+    padding:20px;
+    font-size:30px;
+    width:10px;
+    text-align:center;
+    text-decoration:none;
+    margin:4px 2px;
+    justify-content:right;
+    display:inline-block;
+  }
+  
+  .fa:hover{
+    opacity:0.7;
+  }
+  .fa-facebook{
+    background:black;
+    color:white;
+  }
+  .fa-instagram{
+    background: black;
+    color:white;
+  }
+  .fa-youtube{
+    background:black;
+    color:white;
+  }
